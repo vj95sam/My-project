@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.foodinc.SeleniumJunit.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.276 s <<< FAILURE! - in com.foodinc.SeleniumJunit.AppTest
+testdriver  Time elapsed: 2.267 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ip-172-31-26-84', ip: '172.31.26.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1015-aws', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cdfed865833a9536c77e6947e16965e, get {url=http://localhost:4200/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.UHBF27}, goog:chromeOptions: {debuggerAddress: localhost:33899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33899/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cdfed865833a9536c77e6947e16965e
+	at com.foodinc.SeleniumJunit.AppTest.testdriver(AppTest.java:23)
+
